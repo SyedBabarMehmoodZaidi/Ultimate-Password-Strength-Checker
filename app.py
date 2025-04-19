@@ -62,18 +62,20 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 # 🎉 Title
-st.title("🔐 Ultimate Password Strength Checker")
+st.title("🔐 Password Strength Checker ")
 
 # 📝 Description
 st.markdown("""
-Welcome to the **Ultimate Password Strength Checker!**  
-Ensure your password is secure by checking:
-- ✅ Length
-- ✅ Upper & Lowercase letters
-- ✅ Numbers
-- ✅ Special Characters
+Welcome to the **Password Strength Checker!**  
+Simple tool to evaluate your password strength and improve your online security:
 
-> ⚡ *Improve your online security by creating strong passwords!*  
+📋 Password Requirements:
+- ✅ Minimum Length: Password should be at least 8 characters long
+- ✅ Upper & Lowercase Letters: Use a mix like Aa for better security
+- ✅ Numbers: Include digits like 1, 2, 3 to make it stronger
+            
+- ✅ Special Characters: Use symbols like !@#$%^&* for added protection
+  
 """)
 
 # 🏷️ Input Field
